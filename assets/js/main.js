@@ -1,13 +1,10 @@
 /* ==========================================================================
-   Elena Kowalski — Portfolio JS
+   Vasantha Lakshmi Eda — Portfolio JS
    ==========================================================================*/
 
 (() => {
     'use strict';
 
-    // Runs after data-loader.js has hydrated the DOM from data/*.json
-    // (window.__DATA_READY__ always resolves; falls back to immediate
-    // init when data-loader is absent).
     const init = () => {
 
     // ---- Year
@@ -55,6 +52,12 @@
     if (log) {
         const MAX_LINES = 9;
         const lines = [];
+        const escapeHtml = (value) => String(value)
+            .replace(/&/g, '&amp;')
+            .replace(/</g, '&lt;')
+            .replace(/>/g, '&gt;')
+            .replace(/"/g, '&quot;')
+            .replace(/'/g, '&#39;');
 
         const pad2 = n => String(n).padStart(2, '0');
         const now = () => {
@@ -62,24 +65,12 @@
             return `${pad2(d.getHours())}:${pad2(d.getMinutes())}:${pad2(d.getSeconds())}`;
         };
 
-        // Pool of embedded validation test names.
+        // Decorative portfolio signals.
         const TESTS = [
-            'uart_loopback', 'spi_flash_rw', 'i2c_sensor_probe', 'can_bus_arbitration',
-            'gpio_irq_latency', 'dma_transfer', 'rtos_sched_jitter', 'mem_leak_scan',
-            'linux_dmesg_parse', 'fw_crc_verify', 'bootloader_handoff', 'watchdog_reset',
-            'adc_sample_rate', 'power_seq_bringup', 'thermal_throttle', 'reg_dump_diff'
+            'rag_retrieval_eval', 'bedrock_inference', 'data_quality_check', 'feature_pipeline',
+            'survey_sentiment', 'model_monitoring', 'semantic_search', 'report_delivery'
         ];
-        // Prefer test lines handed over by data-loader.js (hero.console.testLines);
-        // fall back to the built-in pool when no data is available.
-        const DATA_LINES = (window.__CONSOLE_DATA__ &&
-            Array.isArray(window.__CONSOLE_DATA__.testLines) &&
-            window.__CONSOLE_DATA__.testLines.length)
-            ? window.__CONSOLE_DATA__.testLines
-            : null;
-
-        const pick = () => DATA_LINES
-            ? DATA_LINES[Math.floor(Math.random() * DATA_LINES.length)]
-            : { name: `test_${TESTS[Math.floor(Math.random() * TESTS.length)]}` };
+        const pick = () => ({ name: TESTS[Math.floor(Math.random() * TESTS.length)] });
 
         // Verdict distribution: mostly pass, occasional skip, rare fail.
         const nextVerdict = () => {
@@ -101,7 +92,7 @@
                 ? String(entry.duration).replace(/\s*ms$/i, '')
                 : (1 + Math.random() * 240).toFixed(0);
             const dots = '.'.repeat(Math.max(2, 26 - name.length));
-            const line = `<span class="ts">[${now()}]</span> <span class="id">${name}</span> <span class="score">${dots}</span> <span class="${cls}">${v}</span> <span class="score">${ms}ms</span>`;
+            const line = `<span class="ts">[${now()}]</span> <span class="id">${escapeHtml(name)}</span> <span class="score">${dots}</span> <span class="${escapeHtml(cls)}">${escapeHtml(v)}</span> <span class="score">${escapeHtml(ms)}ms</span>`;
             lines.push(line);
             if (lines.length > MAX_LINES) lines.shift();
             const caret = '<span class="caret"></span>';
@@ -129,7 +120,7 @@
 
     // ---- Reveal on scroll
     const revealTargets = document.querySelectorAll(
-        '.section__head, .role, .project, .stack__col, .creds__block, .contact__card, .impact__cell'
+        '.section__head, .role, .project, .stack-card, .stack-hero, .creds__block, .contact__card, .impact__cell'
     );
     revealTargets.forEach(el => el.classList.add('reveal'));
 
@@ -163,9 +154,6 @@
 
     };
 
-    const ready = (window.__DATA_READY__ && typeof window.__DATA_READY__.then === 'function')
-        ? window.__DATA_READY__
-        : Promise.resolve();
-    ready.then(init, init);
+    init();
 
 })();

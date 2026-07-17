@@ -1,5 +1,5 @@
 /* ==========================================================================
-   Alex Morgan — Portfolio
+   Vasantha Lakshmi Eda — Portfolio
    Direction: "Trading Terminal meets Editorial"
    ==========================================================================*/
 
@@ -638,6 +638,9 @@ main { position: relative; z-index: 1; }
     filter: contrast(1.03) saturate(0.95);
     transition: transform 1.2s var(--ease), filter .6s var(--ease);
 }
+.about__monogram { display: grid; place-content: center; gap: 14px; text-align: center; background: radial-gradient(circle at 28% 20%, rgba(212,255,58,0.18), transparent 38%), linear-gradient(145deg, #161a20, #090a0d 70%); }
+.about__monogram span { font-family: var(--f-serif); font-size: clamp(82px, 12vw, 152px); line-height: .8; letter-spacing: -.07em; color: var(--fg); }
+.about__monogram small { font-family: var(--f-mono); font-size: 11px; letter-spacing: .24em; color: var(--accent); }
 .about__frame::before {
     content: "";
     position: absolute;
@@ -1064,6 +1067,44 @@ main { position: relative; z-index: 1; }
     letter-spacing: 0.08em;
 }
 
+/* ---------- Stack showcase ---------- */
+.stack-showcase { border-top: 1px solid var(--border); }
+.stack-hero {
+    display: grid;
+    grid-template-columns: minmax(0, 1.1fr) minmax(300px, .9fr);
+    gap: clamp(32px, 6vw, 100px);
+    padding: clamp(32px, 5vw, 64px);
+    border: 1px solid var(--border);
+    border-top: 0;
+    background: radial-gradient(circle at 92% 5%, rgba(212,255,58,.13), transparent 28%), linear-gradient(115deg, rgba(237,234,226,.035), rgba(237,234,226,.005));
+}
+.stack-hero__eyebrow, .stack-card__head {
+    margin: 0 0 18px;
+    color: var(--accent);
+    font-family: var(--f-mono);
+    font-size: 10px;
+    letter-spacing: .15em;
+    text-transform: uppercase;
+}
+.stack-hero h3 { margin: 0 0 18px; font-family: var(--f-serif); font-size: clamp(42px, 5vw, 74px); font-weight: 400; letter-spacing: -.035em; line-height: .92; }
+.stack-hero h3 em, .stack-card h3 em { color: var(--accent); font-style: italic; }
+.stack-hero p:not(.stack-hero__eyebrow) { max-width: 48ch; margin: 0; color: var(--fg-muted); font-size: 15px; line-height: 1.65; }
+.stack-flow { display: flex; flex-direction: column; justify-content: center; margin: 0; padding: 0; counter-reset: none; }
+.stack-flow li { display: grid; grid-template-columns: 50px 1fr; gap: 14px; padding: 14px 0; border-bottom: 1px dashed var(--border); color: var(--fg); font-size: 14px; }
+.stack-flow li:first-child { border-top: 1px dashed var(--border); }
+.stack-flow span { color: var(--fg-dim); font-family: var(--f-mono); font-size: 10px; letter-spacing: .1em; padding-top: 3px; }
+.stack-cards { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.stack-card { min-height: 300px; padding: clamp(26px, 3.5vw, 44px); border-right: 1px solid var(--border); border-bottom: 1px solid var(--border); background: rgba(237,234,226,.008); transition: background .3s var(--ease), transform .3s var(--ease); }
+.stack-card:nth-child(2n) { border-right: 0; }
+.stack-card:hover { background: rgba(212,255,58,.035); transform: translateY(-3px); }
+.stack-card--feature { background: linear-gradient(145deg, rgba(212,255,58,.09), rgba(237,234,226,.01) 70%); }
+.stack-card__head { display: flex; justify-content: space-between; color: var(--fg-dim); }
+.stack-card__index { color: var(--accent); }
+.stack-card h3 { margin: 0 0 16px; font-family: var(--f-serif); font-size: clamp(32px, 3.5vw, 50px); font-weight: 400; line-height: .95; letter-spacing: -.025em; }
+.stack-card p { margin: 0 0 24px; color: var(--fg-muted); font-size: 14px; line-height: 1.55; }
+.stack-card ul { display: flex; flex-wrap: wrap; gap: 7px; margin: 0; padding: 0; list-style: none; }
+.stack-card li { border: 1px solid var(--border); border-radius: 99px; color: var(--fg-muted); font-family: var(--f-mono); font-size: 10px; letter-spacing: .04em; padding: 6px 9px; }
+
 /* ==========================================================================
    CREDENTIALS
    ==========================================================================*/
@@ -1360,6 +1401,7 @@ main { position: relative; z-index: 1; }
     .project__metrics div { flex: 1 1 130px; }
 
     .stack { grid-template-columns: repeat(2, 1fr); }
+    .stack-hero { grid-template-columns: 1fr; }
     .creds { grid-template-columns: 1fr; }
     .contact { grid-template-columns: repeat(2, 1fr); }
     .footer__inner { grid-template-columns: 1fr 1fr; }
@@ -1399,6 +1441,9 @@ main { position: relative; z-index: 1; }
     .project__metrics { flex-direction: column; gap: 14px; }
 
     .stack { grid-template-columns: 1fr; }
+    .stack-hero { padding: 28px 22px; }
+    .stack-cards { grid-template-columns: 1fr; }
+    .stack-card { min-height: auto; border-right: 0; }
     .contact { grid-template-columns: 1fr; }
     .contact__card { border-right: 0; }
 
