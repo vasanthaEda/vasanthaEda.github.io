@@ -817,6 +817,16 @@ main { position: relative; z-index: 1; }
     margin: 0 0 4px;
     color: var(--fg);
 }
+.role__logo {
+    width: 48px;
+    height: 48px;
+    margin: 0 0 16px;
+    border: 1px solid var(--border-strong);
+    border-radius: 8px;
+    background: #fff;
+    object-fit: contain;
+    padding: 5px;
+}
 .role__title {
     font-family: var(--f-mono);
     font-size: 12px;
