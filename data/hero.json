@@ -1,0 +1,172 @@
+{
+  "_instructions": "Hero section content.",
+  "greeting": "Hi, I'm",
+  "name": "Vasantha Lakshmi Eda",
+  "title": "Full-stack AI/ML professional",
+  "summary": "Full-stack AI/ML professional with 4+ years of experience designing, deploying, and operating production AI systems across LLMOps, NLP, machine learning, and data engineering. Proficient across the complete AI/ML lifecycle from research, model development, and evaluation frameworks to scalable pipeline architecture and production delivery with hands-on expertise in LLMs (Claude 3, GPT, Azure OpenAI), RAG pipelines, BERTScore evaluation, AWS Step Functions, SageMaker, LangChain, PyTorch, TensorFlow, and MLOps tooling. Experienced across cloud platforms (AWS, Azure, GCP) and comfortable owning full-stack AI systems independently from architecture through frontend delivery. AWS Certified Machine Learning – Specialty Certificate Holder.",
+  "avatarUrl": "/avatar.png",
+  "tagline": "Full-stack AI/ML professional",
+  "headline": {
+    "segments": [
+      {
+        "text": "Building ",
+        "em": false
+      },
+      {
+        "text": "full-stack ai/ml",
+        "em": true
+      },
+      {
+        "text": " where ",
+        "em": false
+      },
+      {
+        "text": "Python",
+        "em": true
+      },
+      {
+        "text": " meets ",
+        "em": false
+      },
+      {
+        "text": "TensorFlow",
+        "em": true
+      },
+      {
+        "text": " and ",
+        "em": false
+      },
+      {
+        "text": "Amazon Bedrock",
+        "em": true
+      },
+      {
+        "text": ".",
+        "em": false
+      }
+    ]
+  },
+  "console": {
+    "title": "test-runner · regression · ci",
+    "status": "RUNNING",
+    "meta": [
+      {
+        "label": "suite",
+        "value": "portfolio-regression v1.0"
+      },
+      {
+        "label": "runtime",
+        "value": "4m 32s"
+      },
+      {
+        "label": "builds today",
+        "value": "24"
+      }
+    ],
+    "testLines": [
+      {
+        "name": "test_python",
+        "verdict": "PASS",
+        "duration": "42ms"
+      },
+      {
+        "name": "test_sql",
+        "verdict": "PASS",
+        "duration": "118ms"
+      },
+      {
+        "name": "test_r",
+        "verdict": "PASS",
+        "duration": "7ms"
+      },
+      {
+        "name": "test_go",
+        "verdict": "PASS",
+        "duration": "96ms"
+      },
+      {
+        "name": "test_java",
+        "verdict": "PASS",
+        "duration": "23ms"
+      },
+      {
+        "name": "test_unit_suite",
+        "verdict": "SKIP",
+        "duration": "64ms"
+      },
+      {
+        "name": "test_build_artifacts",
+        "verdict": "PASS",
+        "duration": "151ms"
+      },
+      {
+        "name": "test_release_smoke",
+        "verdict": "PASS",
+        "duration": "12ms"
+      }
+    ],
+    "footer": [
+      {
+        "label": "pass",
+        "value": "98.4%"
+      },
+      {
+        "label": "coverage",
+        "value": "90%"
+      },
+      {
+        "label": "flaky",
+        "value": "—"
+      }
+    ]
+  },
+  "highlights": [
+    {
+      "icon": "fas fa-briefcase",
+      "text": "6+ Years Experience",
+      "color": "#FF6B6B"
+    },
+    {
+      "icon": "fas fa-laptop-code",
+      "text": "Full-stack AI/ML professional",
+      "color": "#4ECDC4"
+    },
+    {
+      "icon": "fas fa-code",
+      "text": "Python / SQL / R",
+      "color": "#FFE66D"
+    }
+  ],
+  "cta": {
+    "buttons": [
+      {
+        "text": "Get In Touch",
+        "href": "#contact",
+        "type": "primary",
+        "external": false
+      },
+      {
+        "text": "View My Work",
+        "href": "#projects",
+        "type": "secondary",
+        "external": false
+      }
+    ]
+  },
+  "socialLinks": [
+    {
+      "platform": "LinkedIn",
+      "url": "http://www.linkedin.com/in/lakshmive",
+      "icon": "fab fa-linkedin"
+    },
+    {
+      "platform": "Email",
+      "url": "mailto:vasanthalakshmieda1@gmail.com",
+      "icon": "fas fa-envelope"
+    }
+  ],
+  "scrollIndicator": {
+    "text": "Scroll to explore",
+    "icon": "fas fa-chevron-down"
+  }
+}

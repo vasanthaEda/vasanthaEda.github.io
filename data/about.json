@@ -1,0 +1,40 @@
+{
+  "_instructions": "About section.",
+  "sectionTitle": "About Me",
+  "image": "assets/images/profile.jpg",
+  "paragraphs": [
+    "Full-stack AI/ML professional with 4+ years of experience designing, deploying, and operating production AI systems across LLMOps, NLP, machine learning, and data engineering. Proficient across the complete AI/ML lifecycle from research, model development, and evaluation frameworks to scalable pipeline architecture and production delivery with hands-on expertise in LLMs (Claude 3, GPT, Azure OpenAI), RAG pipelines, BERTScore evaluation, AWS Step Functions, SageMaker, LangChain, PyTorch, TensorFlow, and MLOps tooling.",
+    "Experienced across cloud platforms (AWS, Azure, GCP) and comfortable owning full-stack AI systems independently from architecture through frontend delivery. AWS Certified Machine Learning – Specialty Certificate Holder."
+  ],
+  "statistics": [
+    {
+      "icon": "fas fa-briefcase",
+      "value": "6+",
+      "label": "Years Experience",
+      "color": "#FF6B6B"
+    },
+    {
+      "icon": "fas fa-project-diagram",
+      "value": "1+",
+      "label": "Featured Projects",
+      "color": "#4ECDC4"
+    },
+    {
+      "icon": "fas fa-code",
+      "value": "80+",
+      "label": "Technologies",
+      "color": "#FFE66D"
+    },
+    {
+      "icon": "fas fa-graduation-cap",
+      "value": "4/4",
+      "label": "GPA",
+      "color": "#A8DADC"
+    }
+  ],
+  "downloadCV": {
+    "text": "Download Resume",
+    "href": "assets/files/Resume.pdf",
+    "icon": "fas fa-download"
+  }
+}

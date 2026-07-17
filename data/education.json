@@ -1,0 +1,36 @@
+{
+  "_instructions": "Add your education and certifications here.",
+  "sectionTitle": "Education & Certifications",
+  "certificationsTitle": "Certifications",
+  "education": [
+    {
+      "degree": "Master of Science in Information Technology",
+      "school": "Arizona State University",
+      "institution": "Arizona State University",
+      "period": "",
+      "details": "GPA: 4/4",
+      "description": "GPA: 4/4"
+    },
+    {
+      "degree": "Bachelor of Technology in Information Technology",
+      "school": "Jawaharlal Nehru Tech University",
+      "institution": "Jawaharlal Nehru Tech University",
+      "period": "",
+      "details": "GPA: 8.3/10",
+      "description": "GPA: 8.3/10"
+    }
+  ],
+  "certifications": [
+    {
+      "title": "AWS Certified Machine Learning – Specialty",
+      "name": "AWS Certified Machine Learning – Specialty",
+      "issuer": "AWS",
+      "date": "",
+      "icon": "fas fa-certificate",
+      "color": "#FFE66D",
+      "url": ""
+    }
+  ],
+  "awardsTitle": "Awards",
+  "awards": []
+}

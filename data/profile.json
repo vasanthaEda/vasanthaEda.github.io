@@ -1,0 +1,18 @@
+{
+  "profile": {
+    "name": "Vasantha Lakshmi Eda",
+    "title": "Full-stack AI/ML professional",
+    "bio": "Full-stack AI/ML professional with 4+ years of experience designing, deploying, and operating production AI systems across LLMOps, NLP, machine learning, and data engineering. Proficient across the complete AI/ML lifecycle from research, model development, and evaluation frameworks to scalable pipeline architecture and production delivery with hands-on expertise in LLMs (Claude 3, GPT, Azure OpenAI), RAG pipelines, BERTScore evaluation, AWS Step Functions, SageMaker, LangChain, PyTorch, TensorFlow, and MLOps tooling. Experienced across cloud platforms (AWS, Azure, GCP) and comfortable owning full-stack AI systems independently from architecture through frontend delivery. AWS Certified Machine Learning – Specialty Certificate Holder."
+  },
+  "contact": {
+    "email": "vasanthalakshmieda1@gmail.com",
+    "phone": "+1 4807917472",
+    "githubUsername": "vasanthaEda",
+    "linkedin": "http://www.linkedin.com/in/lakshmive"
+  },
+  "siteConfig": {
+    "domain": "",
+    "title": "Vasantha Lakshmi Eda - Portfolio",
+    "description": "Full-stack AI/ML professional with 4+ years of experience designing, deploying, and operating production AI systems across LLMOps, NLP, machine learning, and data engineering. Proficient across the complete AI/ML lifecycle from research, model development, and evaluation frameworks to scalable pipeline architecture and production delivery with hands-on expertise in LLMs (Claude 3, GPT, Azure OpenAI), RAG pipelines, BERTScore evaluation, AWS Step Functions, SageMaker, LangChain, PyTorch, TensorFlow, and MLOps tooling. Experienced across cloud platforms (AWS, Azure, GCP) and comfortable owning full-stack AI systems independently from architecture through frontend delivery. AWS Certified Machine Learning – Specialty Certificate Holder."
+  }
+}

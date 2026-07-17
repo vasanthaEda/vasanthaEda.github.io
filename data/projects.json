@@ -1,0 +1,478 @@
+{
+  "_instructions": "Add your projects.",
+  "sectionTitle": "Featured Work",
+  "projects": [
+    {
+      "title": "AI-driven NLP solution (Smart India Hackathon 2021)",
+      "description": "Won Smart India Hackathon 2021 for building an AI-driven NLP solution under real-world constraints.",
+      "longDescription": "Won Smart India Hackathon 2021 for building an AI-driven NLP solution under real-world constraints.",
+      "category": "Software Development",
+      "technologies": [
+        "NLP"
+      ],
+      "icon": "fas fa-project-diagram",
+      "color": "#FF6B6B",
+      "image": "",
+      "featured": true,
+      "github": "",
+      "demo": "",
+      "links": {
+        "github": ""
+      },
+      "stats": {
+        "status": "Completed",
+        "year": "2026"
+      }
+    },
+    {
+      "title": "sentinel-triage",
+      "description": "Personal project for exploring modern development practices",
+      "longDescription": "Personal project for exploring modern development practices",
+      "category": "Backend Development",
+      "technologies": [
+        "Python",
+        "Dockerfile"
+      ],
+      "icon": "fas fa-project-diagram",
+      "color": "#4ECDC4",
+      "image": "",
+      "featured": true,
+      "github": "https://github.com/vasanthaEda/sentinel-triage",
+      "demo": "https://github.com/vasanthaEda/sentinel-triage",
+      "links": {
+        "github": "https://github.com/vasanthaEda/sentinel-triage"
+      },
+      "stats": {
+        "status": "Completed",
+        "year": "2026"
+      }
+    },
+    {
+      "title": "rag-chatbot",
+      "description": "Hands-on learning experience with modern frameworks",
+      "longDescription": "Hands-on learning experience with modern frameworks",
+      "category": "Backend Development",
+      "technologies": [
+        "Python",
+        "TypeScript",
+        "CSS",
+        "JavaScript",
+        "Makefile",
+        "HTML",
+        "Mako",
+        "Shell"
+      ],
+      "icon": "fas fa-brain",
+      "color": "#FFE66D",
+      "image": "",
+      "featured": true,
+      "github": "https://github.com/vasanthaEda/rag-chatbot",
+      "demo": "https://github.com/vasanthaEda/rag-chatbot",
+      "links": {
+        "github": "https://github.com/vasanthaEda/rag-chatbot"
+      },
+      "stats": {
+        "status": "Completed",
+        "year": "2026"
+      }
+    },
+    {
+      "title": "nerva-jax",
+      "description": "Portfolio project showcasing development capabilities",
+      "longDescription": "Portfolio project showcasing development capabilities",
+      "category": "Backend Development",
+      "technologies": [
+        "Python"
+      ],
+      "icon": "fas fa-project-diagram",
+      "color": "#A8DADC",
+      "image": "",
+      "featured": true,
+      "github": "https://github.com/vasanthaEda/nerva-jax",
+      "demo": "https://github.com/vasanthaEda/nerva-jax",
+      "links": {
+        "github": "https://github.com/vasanthaEda/nerva-jax"
+      },
+      "stats": {
+        "status": "Completed",
+        "year": "2026"
+      }
+    },
+    {
+      "title": "mlops-app",
+      "description": "Interactive application built for continuous learning",
+      "longDescription": "Interactive application built for continuous learning",
+      "category": "Backend Development",
+      "technologies": [
+        "HCL",
+        "Python",
+        "Jupyter Notebook",
+        "Dockerfile",
+        "Shell"
+      ],
+      "icon": "fas fa-project-diagram",
+      "color": "#B19CD9",
+      "image": "",
+      "featured": true,
+      "github": "https://github.com/vasanthaEda/mlops-app",
+      "demo": "https://github.com/vasanthaEda/mlops-app",
+      "links": {
+        "github": "https://github.com/vasanthaEda/mlops-app"
+      },
+      "stats": {
+        "status": "Completed",
+        "year": "2026"
+      }
+    },
+    {
+      "title": "agentgate",
+      "description": "Personal development project using industry best practices",
+      "longDescription": "Personal development project using industry best practices",
+      "category": "Backend Development",
+      "technologies": [
+        "Python",
+        "Dockerfile"
+      ],
+      "icon": "fas fa-project-diagram",
+      "color": "#7FDBDA",
+      "image": "",
+      "featured": true,
+      "github": "https://github.com/vasanthaEda/agentgate",
+      "demo": "https://github.com/vasanthaEda/agentgate",
+      "links": {
+        "github": "https://github.com/vasanthaEda/agentgate"
+      },
+      "stats": {
+        "status": "Completed",
+        "year": "2026"
+      }
+    },
+    {
+      "title": "driftguard-llm",
+      "description": "Practice repository for exploring advanced features",
+      "longDescription": "Practice repository for exploring advanced features",
+      "category": "Backend Development",
+      "technologies": [
+        "Python",
+        "Dockerfile"
+      ],
+      "icon": "fas fa-project-diagram",
+      "color": "#FF6B6B",
+      "image": "",
+      "featured": false,
+      "github": "https://github.com/vasanthaEda/driftguard-llm",
+      "demo": "https://github.com/vasanthaEda/driftguard-llm",
+      "links": {
+        "github": "https://github.com/vasanthaEda/driftguard-llm"
+      },
+      "stats": {
+        "status": "Completed",
+        "year": "2026"
+      }
+    },
+    {
+      "title": "agentops-sentinel",
+      "description": "Modern web application demonstrating clean code principles",
+      "longDescription": "Modern web application demonstrating clean code principles",
+      "category": "Backend Development",
+      "technologies": [
+        "Python",
+        "HTML",
+        "Dockerfile"
+      ],
+      "icon": "fas fa-brain",
+      "color": "#4ECDC4",
+      "image": "",
+      "featured": false,
+      "github": "https://github.com/vasanthaEda/agentops-sentinel",
+      "demo": "https://github.com/vasanthaEda/agentops-sentinel",
+      "links": {
+        "github": "https://github.com/vasanthaEda/agentops-sentinel"
+      },
+      "stats": {
+        "status": "Completed",
+        "year": "2026"
+      }
+    },
+    {
+      "title": "model-interpretability-for-machine-learning-models",
+      "description": "Practice repository for exploring advanced features",
+      "longDescription": "Practice repository for exploring advanced features",
+      "category": "Development",
+      "technologies": [],
+      "icon": "fas fa-project-diagram",
+      "color": "#FFE66D",
+      "image": "",
+      "featured": false,
+      "github": "https://github.com/vasanthaEda/model-interpretability-for-machine-learning-models",
+      "demo": "https://github.com/vasanthaEda/model-interpretability-for-machine-learning-models",
+      "links": {
+        "github": "https://github.com/vasanthaEda/model-interpretability-for-machine-learning-models"
+      },
+      "stats": {
+        "status": "Completed",
+        "year": "2026"
+      }
+    },
+    {
+      "title": "identify_contrails",
+      "description": "Learning project built with modern web technologies",
+      "longDescription": "Learning project built with modern web technologies",
+      "category": "Development",
+      "technologies": [],
+      "icon": "fas fa-project-diagram",
+      "color": "#A8DADC",
+      "image": "",
+      "featured": false,
+      "github": "https://github.com/vasanthaEda/identify_contrails",
+      "demo": "https://github.com/vasanthaEda/identify_contrails",
+      "links": {
+        "github": "https://github.com/vasanthaEda/identify_contrails"
+      },
+      "stats": {
+        "status": "Completed",
+        "year": "2026"
+      }
+    },
+    {
+      "title": "Image-Recognition",
+      "description": "GitHub repository: Image-Recognition",
+      "longDescription": "GitHub repository: Image-Recognition",
+      "category": "Software Development",
+      "technologies": [
+        "Jupyter Notebook"
+      ],
+      "icon": "fas fa-project-diagram",
+      "color": "#B19CD9",
+      "image": "",
+      "featured": false,
+      "github": "https://github.com/vasanthaEda/Image-Recognition",
+      "demo": "https://github.com/vasanthaEda/Image-Recognition",
+      "links": {
+        "github": "https://github.com/vasanthaEda/Image-Recognition"
+      },
+      "stats": {
+        "status": "Completed",
+        "year": "2026"
+      }
+    },
+    {
+      "title": "Web-Scraping-Project",
+      "description": "GitHub repository: Web-Scraping-Project",
+      "longDescription": "GitHub repository: Web-Scraping-Project",
+      "category": "Software Development",
+      "technologies": [
+        "Jupyter Notebook"
+      ],
+      "icon": "fas fa-project-diagram",
+      "color": "#7FDBDA",
+      "image": "",
+      "featured": false,
+      "github": "https://github.com/vasanthaEda/Web-Scraping-Project",
+      "demo": "https://github.com/vasanthaEda/Web-Scraping-Project",
+      "links": {
+        "github": "https://github.com/vasanthaEda/Web-Scraping-Project"
+      },
+      "stats": {
+        "status": "Completed",
+        "year": "2026"
+      }
+    },
+    {
+      "title": "Visualization-Project-of-School-Performance-Analysis",
+      "description": "GitHub repository: Visualization-Project-of-School-Performance-Analysis",
+      "longDescription": "GitHub repository: Visualization-Project-of-School-Performance-Analysis",
+      "category": "Software Development",
+      "technologies": [
+        "Jupyter Notebook"
+      ],
+      "icon": "fas fa-project-diagram",
+      "color": "#FF6B6B",
+      "image": "",
+      "featured": false,
+      "github": "https://github.com/vasanthaEda/Visualization-Project-of-School-Performance-Analysis",
+      "demo": "https://github.com/vasanthaEda/Visualization-Project-of-School-Performance-Analysis",
+      "links": {
+        "github": "https://github.com/vasanthaEda/Visualization-Project-of-School-Performance-Analysis"
+      },
+      "stats": {
+        "status": "Completed",
+        "year": "2026"
+      }
+    },
+    {
+      "title": "Visualization-Project-of-Instagram-Reach-Analysis",
+      "description": "GitHub repository: Visualization-Project-of-Instagram-Reach-Analysis",
+      "longDescription": "GitHub repository: Visualization-Project-of-Instagram-Reach-Analysis",
+      "category": "Software Development",
+      "technologies": [
+        "Jupyter Notebook"
+      ],
+      "icon": "fas fa-project-diagram",
+      "color": "#4ECDC4",
+      "image": "",
+      "featured": false,
+      "github": "https://github.com/vasanthaEda/Visualization-Project-of-Instagram-Reach-Analysis",
+      "demo": "https://github.com/vasanthaEda/Visualization-Project-of-Instagram-Reach-Analysis",
+      "links": {
+        "github": "https://github.com/vasanthaEda/Visualization-Project-of-Instagram-Reach-Analysis"
+      },
+      "stats": {
+        "status": "Completed",
+        "year": "2026"
+      }
+    },
+    {
+      "title": "mlproject",
+      "description": "GitHub repository: mlproject",
+      "longDescription": "GitHub repository: mlproject",
+      "category": "Backend Development",
+      "technologies": [
+        "Python"
+      ],
+      "icon": "fas fa-project-diagram",
+      "color": "#FFE66D",
+      "image": "",
+      "featured": false,
+      "github": "https://github.com/vasanthaEda/mlproject",
+      "demo": "https://github.com/vasanthaEda/mlproject",
+      "links": {
+        "github": "https://github.com/vasanthaEda/mlproject"
+      },
+      "stats": {
+        "status": "Completed",
+        "year": "2026"
+      }
+    },
+    {
+      "title": "Project-in-R",
+      "description": "GitHub repository: Project-in-R",
+      "longDescription": "GitHub repository: Project-in-R",
+      "category": "Software Development",
+      "technologies": [
+        "Jupyter Notebook"
+      ],
+      "icon": "fas fa-project-diagram",
+      "color": "#A8DADC",
+      "image": "",
+      "featured": false,
+      "github": "https://github.com/vasanthaEda/Project-in-R",
+      "demo": "https://github.com/vasanthaEda/Project-in-R",
+      "links": {
+        "github": "https://github.com/vasanthaEda/Project-in-R"
+      },
+      "stats": {
+        "status": "Completed",
+        "year": "2026"
+      }
+    },
+    {
+      "title": "Stock-Price-Prediction",
+      "description": "GitHub repository: Stock-Price-Prediction",
+      "longDescription": "GitHub repository: Stock-Price-Prediction",
+      "category": "Software Development",
+      "technologies": [
+        "Jupyter Notebook"
+      ],
+      "icon": "fas fa-project-diagram",
+      "color": "#B19CD9",
+      "image": "",
+      "featured": false,
+      "github": "https://github.com/vasanthaEda/Stock-Price-Prediction",
+      "demo": "https://github.com/vasanthaEda/Stock-Price-Prediction",
+      "links": {
+        "github": "https://github.com/vasanthaEda/Stock-Price-Prediction"
+      },
+      "stats": {
+        "status": "Completed",
+        "year": "2026"
+      }
+    },
+    {
+      "title": "Regression",
+      "description": "GitHub repository: Regression",
+      "longDescription": "GitHub repository: Regression",
+      "category": "Software Development",
+      "technologies": [
+        "Jupyter Notebook"
+      ],
+      "icon": "fas fa-project-diagram",
+      "color": "#7FDBDA",
+      "image": "",
+      "featured": false,
+      "github": "https://github.com/vasanthaEda/Regression",
+      "demo": "https://github.com/vasanthaEda/Regression",
+      "links": {
+        "github": "https://github.com/vasanthaEda/Regression"
+      },
+      "stats": {
+        "status": "Completed",
+        "year": "2026"
+      }
+    },
+    {
+      "title": "House-Price-Detection",
+      "description": "GitHub repository: House-Price-Detection",
+      "longDescription": "GitHub repository: House-Price-Detection",
+      "category": "Software Development",
+      "technologies": [
+        "Jupyter Notebook"
+      ],
+      "icon": "fas fa-project-diagram",
+      "color": "#FF6B6B",
+      "image": "",
+      "featured": false,
+      "github": "https://github.com/vasanthaEda/House-Price-Detection",
+      "demo": "https://github.com/vasanthaEda/House-Price-Detection",
+      "links": {
+        "github": "https://github.com/vasanthaEda/House-Price-Detection"
+      },
+      "stats": {
+        "status": "Completed",
+        "year": "2026"
+      }
+    },
+    {
+      "title": "Clustering",
+      "description": "GitHub repository: Clustering",
+      "longDescription": "GitHub repository: Clustering",
+      "category": "Software Development",
+      "technologies": [
+        "Jupyter Notebook"
+      ],
+      "icon": "fas fa-project-diagram",
+      "color": "#4ECDC4",
+      "image": "",
+      "featured": false,
+      "github": "https://github.com/vasanthaEda/Clustering",
+      "demo": "https://github.com/vasanthaEda/Clustering",
+      "links": {
+        "github": "https://github.com/vasanthaEda/Clustering"
+      },
+      "stats": {
+        "status": "Completed",
+        "year": "2026"
+      }
+    },
+    {
+      "title": "Oyster-Gardening",
+      "description": "GitHub repository: Oyster-Gardening",
+      "longDescription": "GitHub repository: Oyster-Gardening",
+      "category": "Development",
+      "technologies": [],
+      "icon": "fas fa-project-diagram",
+      "color": "#FFE66D",
+      "image": "",
+      "featured": false,
+      "github": "https://github.com/vasanthaEda/Oyster-Gardening",
+      "demo": "https://github.com/vasanthaEda/Oyster-Gardening",
+      "links": {
+        "github": "https://github.com/vasanthaEda/Oyster-Gardening"
+      },
+      "stats": {
+        "status": "Completed",
+        "year": "2026"
+      }
+    }
+  ]
+}

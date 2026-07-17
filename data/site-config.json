@@ -1,0 +1,26 @@
+{
+  "_instructions": "Site-wide configuration and meta tags.",
+  "title": "Vasantha Lakshmi Eda | Full-stack AI/ML professional",
+  "description": "Full-stack AI/ML professional with 4+ years of experience designing, deploying, and operating production AI systems across LLMOps, NLP, machine learning, and data engineering. Proficient across the...",
+  "keywords": "Full-stack AI/ML professional, Portfolio, Vasantha Lakshmi Eda, Python, SQL, R, Go, Java, Bash, HTML, CSS",
+  "author": "Vasantha Lakshmi Eda",
+  "siteName": "Vasantha Lakshmi Eda",
+  "siteTitle": "Vasantha Lakshmi Eda | Full-stack AI/ML professional",
+  "meta": {
+    "title": "Vasantha Lakshmi Eda | Full-stack AI/ML professional",
+    "description": "Full-stack AI/ML professional with 4+ years of experience designing, deploying, and operating production AI systems across LLMOps, NLP, machine learning, and data engineering. Proficient across the...",
+    "author": "Vasantha Lakshmi Eda",
+    "keywords": "Full-stack AI/ML professional, Portfolio, Vasantha Lakshmi Eda, Python, SQL, R, Go, Java, Bash, HTML, CSS"
+  },
+  "branding": {
+    "name": "Vasantha Lakshmi Eda",
+    "tagline": "Full-stack AI/ML professional",
+    "logo": "/logo.png"
+  },
+  "settings": {
+    "year": 2026,
+    "enableAnimations": true,
+    "enableParticles": true,
+    "navbarScrollEffect": true
+  }
+}
